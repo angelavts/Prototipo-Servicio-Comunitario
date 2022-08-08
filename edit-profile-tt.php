@@ -10,7 +10,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
-        <?php include 'assets/left-menu-cr.php'; ?>
+        <?php include 'assets/left-menu-tt.php'; ?>
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -18,7 +18,7 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- Topbar -->
-                <?php include 'assets/topbar-cr.php'; ?>
+                <?php include 'assets/topbar-tt.php'; ?>
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
@@ -29,13 +29,16 @@
                             <div class="card mb-4">
                             <div class="card-body text-center">
                             <i class="fas fa-fw fa-user"></i>
-                                <h5 class="my-3">Mirella Herrera</h5>
-                                <p class="text-muted mb-1">Coordinadora de Servicio Comunitario</p>
+                                <h5 class="my-3">JohnSmith</h5>
                                 <p class="text-muted mb-1">Computación</p>
                                 <p class="text-muted mb-4">Facultad de Ciencias y Tecnología</p>
                             </div>
                             </div>
-                            <div class="mb-4">
+                            <div class="card mb-4">
+                            <div class="card-body text-center">
+                                <h5 class="my-3">Proyecto:</h5>
+                                <p class="text-muted mb-4">Creación de sistema de gestión</p>
+                            </div>
                             </div>
                         </div>
                         <div class="col-lg-8">
@@ -55,7 +58,7 @@
                                     <p class="mb-0">Nombres</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Johnatan Jesus</p>
+                                    <input type="text" class="form-control" placeholder="Johnatan Jesus">
                                 </div>
                                 </div>
                                 <hr>
@@ -64,7 +67,7 @@
                                     <p class="mb-0">Apellidos</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Smith Suarez</p>
+                                    <input type="text" class="form-control" placeholder="Smith Suarez">
                                 </div>
                                 </div>
                                 <hr>
@@ -73,7 +76,7 @@
                                     <p class="mb-0">Email</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">example@example.com</p>
+                                    <input type="email" class="form-control" placeholder="Email">
                                 </div>
                                 </div>
                                 <hr>
@@ -82,16 +85,16 @@
                                     <p class="mb-0">Teléfono</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">(097) 234-5678</p>
+                                    <input type="number" class="form-control" placeholder="Número">
                                 </div>
                                 </div>
                                 <hr>
                                 <div class="row justify-content-center mt-5">
-                                <a href="edit-profile-cr.php" class="btn btn-primary btn-icon-split">
+                                <a href="profile-tt.php" class="btn btn-primary btn-icon-split">
                                     <span class="icon text-white-50">
                                         <i class="fas fa-cogs"></i>
                                     </span>
-                                    <span class="text">Editar</span>
+                                    <span class="text">Guardar cambios</span>
                                 </a>
                                 </div>
 

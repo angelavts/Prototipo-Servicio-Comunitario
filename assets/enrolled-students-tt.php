@@ -4,22 +4,6 @@
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Estudiantes inscritos</h1>
-
-        <div class="row justify-content-end">
-
-            <a href="select-students-cr.php" class="btn btn-primary btn-icon-split mr-2">
-                <span class="icon text-white-50">
-                    <i class="fas fa-upload"></i>
-                </span>
-                <span class="text">Añadir estudiantes</span>
-            </a>
-            <a href="approve-students.php" class="btn btn-primary btn-icon-split">
-                <span class="icon text-white-50">
-                    <i class="fas fa-upload"></i>
-                </span>
-                <span class="text">Aprobar estudiantes</span>
-            </a>
-        </div> 
     </div>
 </div>
 <!-- /.container-fluid -->
@@ -56,7 +40,7 @@
                         
                     <tr>
                         <td>5.555.555</td>
-                        <td><a href="student-info-cr.php">Nombres Estudiante</a></td>
+                        <td><a href="student-info-tt.php">Nombres Estudiante</a></td>
                         <td>Apellidos Estudiante</td>
                         <td><?php echo rand(1,20) ?></td>
                         <td> 

@@ -10,7 +10,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
-        <?php include 'assets/left-menu-cr.php'; ?>
+        <?php include 'assets/left-menu-tt.php'; ?>
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -18,7 +18,7 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- Topbar -->
-                <?php include 'assets/topbar-cr.php'; ?>
+                <?php include 'assets/topbar-tt.php'; ?>
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
@@ -29,8 +29,8 @@
                             <div class="card mb-4">
                             <div class="card-body text-center">
                             <i class="fas fa-fw fa-user"></i>
-                                <h5 class="my-3">Mirella Herrera</h5>
-                                <p class="text-muted mb-1">Coordinadora de Servicio Comunitario</p>
+                                <h5 class="my-3">Nombre Apellido</h5>
+                                <p class="text-muted mb-1">Tutor</p>
                                 <p class="text-muted mb-1">Computación</p>
                                 <p class="text-muted mb-4">Facultad de Ciencias y Tecnología</p>
                             </div>
@@ -87,7 +87,7 @@
                                 </div>
                                 <hr>
                                 <div class="row justify-content-center mt-5">
-                                <a href="edit-profile-cr.php" class="btn btn-primary btn-icon-split">
+                                <a href="edit-profile-tt.php" class="btn btn-primary btn-icon-split">
                                     <span class="icon text-white-50">
                                         <i class="fas fa-cogs"></i>
                                     </span>

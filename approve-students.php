@@ -25,7 +25,7 @@
                 <div class="container-fluid">
                         <!-- Page Heading -->
                         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">Selecciona estudiantes para inscribir en el proyecto Creación de Sistema de Gestión</h1>
+                            <h1 class="h3 mb-0 text-gray-800">Estudiantes que cumplieron con 120 horas en el proyecto Creación de Sistema de Gestión</h1>
                         </div>
                     </div>
                     <!-- DataTales Example -->
@@ -73,7 +73,7 @@
                                 <span class="icon text-white-50">
                                     <i class="fas fa-upload"></i>
                                 </span>
-                                <span class="text">Inscribir estudiantes</span>
+                                <span class="text">Aprobar estudiantes</span>
                             </a>
                             </div> 
                         </div>

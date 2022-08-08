@@ -78,24 +78,6 @@
                                 </div>
                                 <hr>
                                 <div class="row">
-                                <div class="col-sm-3">
-                                    <p class="mb-0">Email coordinador</p>
-                                </div>
-                                <div class="col-sm-9">
-                                    <input type="email" class="form-control" placeholder="">
-                                </div>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <p class="mb-0">Teléfono coordinador</p>
-                                    </div>
-                                    <div class="col-sm-9">
-                                        <input type="number" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="row">
                                     <div class="col-sm-3">
                                         <p class="mb-0">Facultad</p>
                                     </div>

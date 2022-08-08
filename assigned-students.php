@@ -10,7 +10,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
-        <?php include 'assets/left-menu-cr.php'; ?>
+        <?php include 'assets/left-menu-tt.php'; ?>
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -18,14 +18,14 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- Topbar -->
-                <?php include 'assets/topbar-cr.php'; ?>
+                <?php include 'assets/topbar-tt.php'; ?>
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                <div class="container-fluid">
+                    <div class="container-fluid">
                         <!-- Page Heading -->
                         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">Selecciona estudiantes para inscribir en el proyecto Creación de Sistema de Gestión</h1>
+                            <h1 class="h3 mb-0 text-gray-800">Estudiantes inscritos</h1>
                         </div>
                     </div>
                     <!-- DataTales Example -->
@@ -38,8 +38,8 @@
                                             <th>Cedula</th>
                                             <th>Nombres</th>
                                             <th>Apellidos</th>
-                                            <th>Carrera</th>
-                                            <th>Seleccionar</th>
+                                            <th>Proyecto</th>
+                                            <th>Horas</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
@@ -47,35 +47,39 @@
                                             <th>Cedula</th>
                                             <th>Nombres</th>
                                             <th>Apellidos</th>
-                                            <th>Carrera</th>
-                                            <th>Seleccionar</th>
+                                            <th>Proyecto</th>
+                                            <th>Horas</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                        <?php for ($i = 1; $i < 20 ; $i++): ?>    
+                                        <?php for ($i = 1; $i < 5 ; $i++): ?> 
+                                        <?php $n = rand(1,100);  ?> 
+                                            
                                         <tr>
                                             <td>5.555.555</td>
-                                            <td><a href="student-info-cr.php">Nombres Estudiante</a></td>
+                                            <td><a href="student-info-tt.php">Nombres Estudiante</a></td>
                                             <td>Apellidos Estudiante</td>
-                                            <td>Carrera estudiante</td>
-                                            <td><div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id=<?php echo '"customCheck'.$i.'"';?>>
-                                            <label class="custom-control-label" for=<?php echo '"customCheck'.$i.'"';?>></label>
-                                            </div></td>
+                                            <td><a href="project-info-tt.php">Creación de un sistema de gestión<a></td>
+                                            <td> 
+                                                <div class="row no-gutters align-items-center">
+                                                    <div class="col-auto">
+                                                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><?php echo $n ?></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="progress progress-sm mr-2">
+                                                            <div class="progress-bar bg-primary" role="progressbar"
+                                                                style=<?php echo '"width: '.$n.'%"' ?> aria-valuenow=<?php echo '"'.$n.'"'?> aria-valuemin="0"
+                                                                aria-valuemax="100"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <?php endfor; ?> 
                                     
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="row justify-content-end mt-3">
-                            <a href="project-info-cr.php" class="btn btn-primary btn-icon-split">
-                                <span class="icon text-white-50">
-                                    <i class="fas fa-upload"></i>
-                                </span>
-                                <span class="text">Inscribir estudiantes</span>
-                            </a>
-                            </div> 
                         </div>
                     </div>
                 </div>

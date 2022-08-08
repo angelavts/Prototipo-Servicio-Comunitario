@@ -19,6 +19,12 @@
         <i class="fas fa-fw fa-list"></i>
         <span>Tutores</span></a>
 </li>
+<li class="nav-item">
+    <a class="nav-link" href="documents-cr.php">
+        <i class="fas fa-fw fa-file"></i>
+        <span>Documents</span></a>
+</li>
+
 
 <hr class="sidebar-divider">
 

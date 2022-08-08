@@ -10,7 +10,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
-        <?php include 'assets/left-menu-cr.php'; ?>
+        <?php include 'assets/left-menu-tt.php'; ?>
         <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -18,7 +18,7 @@
             <!-- Main Content -->
             <div id="content">
                 <!-- Topbar -->
-                <?php include 'assets/topbar-cr.php'; ?>
+                <?php include 'assets/topbar-tt.php'; ?>
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
@@ -39,21 +39,6 @@
                                 <div class="form-group">
                                     <label for="inputAddress2">Descripción</label>
                                     <input type="text" class="form-control" id="inputAddress2" placeholder="Descripción de la tarea">
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                    <label for="inputState">Tutor</label>
-                                    <select id="inputState" class="form-control">
-                                        <option selected>Selecciona...</option>
-                                        <option>Nombre tutor 1</option>
-                                        <option>Nombre tutor 2</option>
-                                        <option>Nombre tutor 3</option>
-                                    </select>
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                    <label for="inputZip">Peso en horas</label>
-                                    <input type="number" class="form-control" id="inputZip">
-                                    </div>
                                 </div>
                                 <a href="student-info-cr.php" class="btn btn-primary btn-icon-split">
                                     <span class="text">Crear tarea</span>
