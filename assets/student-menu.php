@@ -15,7 +15,7 @@
 <li class="nav-item">
     <a class="nav-link" href="documents-st.php">
         <i class="fas fa-fw fa-file"></i>
-        <span>Documents</span></a>
+        <span>Documentos</span></a>
 </li>
 
 <!---<li class="nav-item">

@@ -51,7 +51,7 @@
                         <?php for ($i = 1; $i < 20 ; $i++): ?> 
                         <tr>
                             <td>5.555.555</td>
-                            <td>Nombres Tutor</td>
+                            <td><a href="tutor-profile-cr.php">Nombres Tutor</a></td>
                             <td>Apellidos Tutor</td>
                             <td>Carrera Tutor</td>
                             <td></td>
